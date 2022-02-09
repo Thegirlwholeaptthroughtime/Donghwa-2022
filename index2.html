@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <main>
+        sdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsd
+    </main>
+
+
+    <footer>
+        dsdsad
+    </footer>
+
+
+
+    <a href="">맥북에서 실험용</a>
+    <a href="">맥북에서 실험용2</a>
+
+
+sdsdsds
+
+    <div class="section" id="section3">
+        <div class="sec3-wr">
+            <h3 class="tit inline">R&amp;D CENTER</h3>
+            <p class="txt">상상을 현실에 접목시키다.</p>
+            <div class="sec3Box-wr">
+                <div class="sec3Box n01">
+                    <a href="?pCode=rnd">
+                        <p class="boxTxt">
+                            <span class="bTit">R&amp;D센터 소개</span>
+                            <span class="ef">R&amp;D Center Information</span>
+                        </p>
+                    </a>
+                </div>
+                <div class="sec3Box n02">
+                    <a href="?pCode=rndSector">
+                        <p class="boxTxt">
+                            <span class="bTit">연구분야</span>
+                            <span class="ef">Technology</span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function () {
+                sec3Pkg.init();
+            });
+            var sec3Pkg = {
+                init: function () {
+                    $sec3 = $("#section3");
+                    $sec3_InfoBtn = $(".sec3Box-wr .sec3Box a", $sec3);
+                    this.infoBtnEvtCast();
+                },
+                infoBtnEvtCast: function () {
+                    $sec3_InfoBtn.on("mouseenter", function () {
+                        if ($(this).parent().hasClass("n01")) {
+                            $sec3.removeClass("a");
+                        } else if ($(this).parent().hasClass("n02")) {
+                            $sec3.addClass("a");
+                        }
+                    });
+                }
+            }
+        </script>
+    </div>
+
+
+    <a href="">맥북에서 실험용3</a>
+
+
+
+
+    확인1
+
+</body>
+
+</html>

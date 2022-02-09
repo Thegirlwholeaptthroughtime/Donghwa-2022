@@ -1,0 +1,111 @@
+.section .c_container{
+
+    margin: 150px auto ;
+    height: 100%;
+}
+.section .c_container .video{
+    width: 100%;
+    height: 30vw;
+    display: block;
+    margin: 100px auto 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section .c_container .c_wrap{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+.section .c_container .c_wrap .c_box{
+    text-align: center;
+    padding: 0 5%;
+}
+.section .c_container .c_wrap .c_box a ul{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+}
+.section .c_container .c_wrap .c_box a ul li:nth-child(1){
+    margin-right: 14px;
+    padding: 5px 0;
+}
+.section .c_container .c_wrap .c_box a ul li img{
+    width: 25px;
+}
+.section .c_container p{
+    font-size: 12px;
+    text-align: right;
+    margin: auto;
+    display: block;
+}
+.section .c_container .news{
+    display: flex;
+    border-top: 3px solid #0a69b1;
+    border-bottom: 2px solid #f3f3f3;
+    margin-top: 20px;
+    height: 60px;
+}
+.section .c_container .news li{
+    font-weight: 600;
+    text-align: center;
+    padding: 22px;
+}
+.section .c_container .news li:nth-child(1){
+    width: 10%;
+}
+.section .c_container .news li:nth-child(2){
+    width: 50%;
+}
+.section .c_container .news li:nth-child(3){
+    width: 30%;
+}
+.section .c_container .news li:nth-child(4){
+    width: 10%;
+}
+.section .c_container h3{
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 2px solid #f3f3f3;
+    margin-bottom: 50px;
+}
+.section .c_container .search{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section .c_container .search select{
+    border: 1px solid #f3f3f3;
+    outline: none;
+    width: 124px;
+    padding: 10px;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+.section .c_container .search .keyword{
+    border: 1px solid #f3f3f3;
+    outline: none;
+    width: 315px;
+    padding: 10px;
+    font-size: 1.125rem;
+}
+.section .c_container .search .Sbutton{
+    border: 1px solid #0a69b1;
+    background-color: #0a69b1;
+    width: 124px;
+    padding: 10px;
+    cursor: pointer;
+}
+.section .c_container .search .Sbutton .Stxt{
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+.header_top .ht_right{
+    background-image: url(../img/bg_promotion_01.png);
+    background-size: cover;
+}

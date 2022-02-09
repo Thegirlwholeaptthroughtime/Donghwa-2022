@@ -1,0 +1,391 @@
+/* Slider */
+.slick-slider {
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    margin-right: 30px;
+    height: 100%;
+    min-height: 1px;
+    height: fit-content;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.slick-dots {
+    display: flex;
+    position: absolute;
+    left: -570px;
+    bottom: 20px;
+}
+
+.slick-dots li {}
+
+.slick-dots li button {
+    background: #ccc;
+    border: none;
+    height: 2px;
+    text-indent: -9999px;
+    width: 50px;
+    transition: 0.2s;
+}
+
+.slick-dots li:first-child button {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.slick-dots li:last-child button {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.slick-dots li.slick-active button {
+    background: #000;
+}
+
+/* .slick-next::after{
+    content:"\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;top: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+ */
+
+
+
+.slick-next {
+
+    background: url(../img/right-arrows.png) no-repeat;
+    background-size: contain;
+}
+
+.slick-prev {
+    left: -490px;
+    background: url(../img/left-arrows.png) no-repeat;
+    background-size: contain;
+}
+
+
+
+.slick-next,
+.slick-prev {
+    position: absolute;
+
+    height: 30px;
+    width: 70px;
+    bottom: 57px;
+    cursor: pointer;
+    opacity: 1;
+    border: none;
+    text-indent: -9999px;
+    z-index: 1000;
+}
+/*
+.slick-counter{
+    position: absolute;
+
+    left: 0;top: 0;
+    z-index: 10;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+} */
+
+.slick-counter .current, .slick-counter .current2 {
+    margin-right: 10px;
+    position: relative;
+    font-size: 18px;
+}
+
+
+
+.slick-counter .current::after, .slick-counter .current2::after {
+    position: absolute;
+    content: "";
+    right: -14px;
+    top: 5px;
+    height: 70%;
+    width: 2px;
+    width: 2px;
+    background: #000;
+}
+
+.slick-counter .total,
+.slick-counter .total2 {
+    color: #ccc;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* ------섹션별 arrow 커스텀------ */
+
+
+
+.slick_box .slick-next {
+    left: -245px;
+}
+
+.slick_box .slick-prev {
+    left: -620px;
+
+}
+
+.slick_box .slick-slide {
+    height: auto;
+}
+
+.slick_box .slick-prev,
+.slick_box .slick-next {
+    width: 30px;
+    background-size: 80%;
+
+    height: 25px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.s3_center .slick-dots {
+    left: 0;
+    bottom: -60px;
+}
+
+.s3_center .slick-next {
+    left: 170px;
+
+}
+
+.s3_center .slick-prev {
+    left: -1px;
+
+}
+
+.s3_center .slick-dots li button {
+    width: 12px;
+}
+
+
+.s3_center .slick-next,
+.s3_center .slick-prev {
+    width: 30px;
+    bottom: -40px;
+    background-size: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+.s1_slick .slick-list {
+    height: 970px;
+}
+
+.s1_slick .slick-prev {
+    left: 1725px;
+}
+
+.s1_slick .slick-next {
+    left: 1850px;
+}
+
+.s1_slick .slick-slide {
+    margin-right: 0;
+}
+
+.s1_slick .slick-next,
+.s1_slick .slick-prev {
+    width: 30px;
+    height: 25px;
+    bottom: 100px;
+}
+
+.s1_slick .slick-dots {
+    position: absolute;
+    left: 1725px;
+    bottom: 75px;
+    z-index: 1000;
+}
+
+.s1_slick .slick-dots li button {
+    width: 30px;
+}
+
+.s1_slick_nav .slick-slide {
+    margin-right: 20px;
+}
+
+.s1_slick_nav .slick-current .item-nav {
+    filter: grayscale(0);
+    border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1900px) {
+    .s1_slick .slick-prev {
+        left: 90vw;
+        top: 41vw;
+    }
+
+    .s1_slick .slick-next {
+        left: 96vw;
+        top: 41vw;
+    }
+
+    .s1_slick .slick-dots {
+        left: 90vw;
+        top: 43.5vw;
+    }
+
+    .s1_slick .slick-dots li button {
+        width: 1.5vw;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,143 @@
+.section .c_container{
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+}
+.section .c_container .box{
+    position: relative;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    border-bottom: 2px solid #d7d7d7;
+    padding-bottom: 50px;
+}
+.section .c_container .box .box_img{
+    display: block;
+    text-align: center;
+}
+
+.section .c_container .box .txt{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+.section .c_container .box .txt h1{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.section .c_container .box .txt h3{
+    color: #444;
+    line-height: 23px;
+}
+.section .c_container .box .txt h3 span{
+    font-weight: 500;
+}
+.section .c_container .box .txt .line{
+    width: 100px;
+    height: 3px;
+    background-color: #e1e1e1;
+    margin: 15px 0;
+}
+
+.section .c_container .box .txt .pd_img{
+    display: flex;
+    margin-top: 30px;
+}
+.section .c_container .box .txt .pd_img li{
+    margin-right: 20px;
+}
+.section .c_container .box .txt .pd_img li:last-child{
+    margin: 0;
+}
+
+.section .c_container .box .txt .pdTxt_box{
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+.section .c_container .box .txt .pdTxt_box_2{
+    line-height: 28px;
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+.section .c_container .box .txt .pdTxt_box ul:nth-child(2){
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+.section .c_container .box_3{
+    position: relative;
+    margin-bottom: 50px;
+}
+.section .c_container .box_3 .sub_txt {
+    width: 300px;
+    margin: 0 auto 50px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+.section .c_container .box_3 .bbox{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.section .c_container .box_3 .bbox .txt_box{
+    width: 48%;
+    height: auto;
+    border: 2px solid #f3f3f3;
+    padding: 30px;
+}
+.section .c_container .box_3 .bbox .txt_box:nth-child(1){
+    margin-right: 4%;
+}
+.section .c_container .box_3 .bbox .txt_box p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0a69b1;
+}
+.section .c_container .box_3 .bbox .txt_box .line{
+    width: 100%;
+    height: 2px;
+    background-color: #f3f3f3;
+    margin: 20px 0;
+}
+.section .c_container .box_3 .bbox .txt_box .txt_name{
+    display: flex;
+    position: relative;
+}
+.section .c_container .box_3 .bbox .txt_box .txt_name ul{
+    line-height: 35px;
+}
+.section .c_container .box_3 .bbox .txt_box .txt_name ul:nth-child(2){
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+.section .c_container .box_3 a .button{
+    width: 200px;
+    height: 55px;
+    border: 2px solid #d7d7d7;
+    margin-top: 4%;
+    transition: all 0.5s;
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.section .c_container .box_3 a .button:hover{
+    border: 2px solid #0a69b1;
+    background-color: #0a69b1;
+}
+.section .c_container .box_3 a .button h5{
+    padding: 20px 0;
+    color: #d7d7d7;
+    font-weight: 600;
+    text-align: center;
+}

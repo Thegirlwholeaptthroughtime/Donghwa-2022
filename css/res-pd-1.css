@@ -1,0 +1,186 @@
+@media all and (max-width:1900px) {
+    #wrap2 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:1600px) {
+
+    .section .c_container {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width:1280px) {
+    .section .c_container .box .txt h3:nth-child(2) {
+        display: none;
+    }
+
+    .section .c_container .box .txt {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .section .c_container .box .txt .line {
+        width: 60%;
+        margin: 30px auto;
+    }
+
+    .section .c_container .box .txt .pdTxt_box {
+        display: none;
+    }
+
+    .section .c_container .box .txt a .button {
+        margin: 0 auto;
+    }
+
+    .section .c_container .box .txt .pd_img {
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+@media all and (max-width:1024px) {
+
+
+
+    .section .c_container .box_3 .bbox {
+        display: block;
+    }
+
+    .section .c_container .box_3 .bbox .txt_box {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .section .c_container .box_3 .bbox .txt_box:nth-child(1) {
+        margin: 0 auto 50px;
+
+    }
+
+
+
+}
+
+
+@media all and (max-width:768px) {
+
+    /* header gnb 반응형 시작 */
+    .header_top .ht_left {
+        display: none;
+    }
+
+    .header_top .ht_right {
+        width: 100%;
+    }
+
+    .header_top .ht_right .rtxt_box {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-top: 20vw;
+    }
+
+    .header_bottom .sub_menu {
+        width: 80%;
+    }
+
+    .header_bottom .sub_menu div {
+        font-size: 16px;
+    }
+
+    /* Product1,2 반응형 시작*/
+    .section .c_container .box .box_img img {
+        width: 100%;
+    }
+
+    .section .c_container .box {
+        display: block;
+    }
+
+    .section .c_container .box .txt {
+        margin-left: unset;
+        margin-top: 5vw;
+    }
+
+    .section .c_container .box .txt h3 {
+        font-size: 14px;
+    }
+
+    .section .c_container .box .txt a .button {
+        margin: auto;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .section .c_container .box_2 .field {}
+
+    .section .c_container .box_2 .field li:nth-child(2) {
+        margin-top: 2vw;
+        font-size: 12px;
+    }
+
+    .section .c_container .box_2 .bg_gray li {
+        font-size: 12px;
+        padding: 15px 0;
+    }
+
+    .section .c_container .box_2 .bg_white li {
+        font-size: 12px;
+    }
+
+    .section .c_container .box_3 .bbox {
+        display: block;
+    }
+
+    .section .c_container .box_3 .bbox .txt_box {
+        width: 90%;
+        height: auto;
+        border: 2px solid #f3f3f3;
+        padding: 5% 5%;
+    }
+
+    .section .c_container .box_3 .bbox .txt_box:nth-child(1) {
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+
+
+@media all and (max-width:480px) {
+    .section .c_container .box_3 .bbox .txt_box p {
+        font-size: 18px;
+    }
+
+
+    .section .c_container .box_3 .bbox .txt_box .txt_name ul {
+        font-size: 14px;
+    }
+
+    .section .c_container .box_2 .bg_gray li {
+        font-size: 10px;
+    }
+
+    .section .c_container .box_2 .bg_white li {
+        font-size: 10px;
+    }
+
+    .section .c_container .box .txt .pd_img li {
+        width: 80px;
+    }
+
+    .section .c_container .box .txt .pd_img li img {
+        width: 100%;
+    }
+
+
+}
